@@ -1,0 +1,12 @@
+#footer{
+    border-style: inset ;
+    border-width: 1px 0 0 0 ;
+    width: 100vm;
+    height: 4rem;
+    background-color:block;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   font-size: medium;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

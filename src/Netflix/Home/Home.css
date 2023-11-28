@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 100vw;
+  max-width: 75rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  margin: 0 auto;
+  padding: 20vh 25vh;
+}
+.content {
+  font-size: 40px;
+}
+.offerPer {
+  color: rgb(255, 0, 13);
+  font-size: 2rem;
+}
+.homePara {
+  font-size: 30px;
+  justify-content: center;
+  font-family: "Poppins", "sans-serif";
+  margin-bottom: 2rem;
+}
+.homePara2 {
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: 600;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+  margin: 5vh auto;
+  border: none;
+}
+.email {
+  align-items: last baseline;
+  justify-content: center;
+  padding: 1rem 3.5rem;
+  background-color: transparent;
+  color: white;
+}
+.formBtn {
+  background-color: rgb(243, 9, 9);
+  margin: 0;
+  padding: 1rem 3.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+  color: white;
+}
+.formBtn:hover {
+  cursor: pointer;
+  background-color: rgb(182, 32, 32);
+}
+/* .bg{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    object-fit: cover;
+    height: 100vh;
+    filter: blur(1px)
+}  */
